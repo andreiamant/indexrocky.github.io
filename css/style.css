@@ -1,0 +1,17 @@
+.nav{
+    background: transparent;
+}
+/* Inicio jumbotron */
+.jumbotron {
+    background: black;
+    background-size: cover;
+    height: 666px;
+    overflow: hidden;
+    color: #eee;
+    margin-top: -75px ;
+}
+.jumbotron h1{
+margin-top: 185px;
+}
+
+/* Fim jumbotron */
