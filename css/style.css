@@ -6,41 +6,12 @@
 .jumbotron {
     background: black;
     background-size: cover;
-    height: 890px;
+    height: 100vh;
     overflow: hidden;
     color: #eee;
     margin-top: -235px
 }
 .jumbotron h1{
 margin-top: 300px;
-}
-
-@media screen and (min-width: 1366px){
-    .jumbotron{
-    background: black;
-    background-size: cover;
-    height: 901px;
-    overflow: hidden;
-    color: #eee;
-    margin-top: -235px
-}
-.jumbotron h1{
-margin-top: 400px;
-}
-}
-
-@media screen and (min-width: 1080px){
-    {
-        .jumbotron{
-        background: black;
-        background-size: cover;
-        height: 1080px;
-        overflow: hidden;
-        color: #eee;
-        margin-top: -235px
-    }
-    .jumbotron h1{
-    margin-top: 800px;
-    }    
 }
 /* Fim jumbotron */
