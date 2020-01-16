@@ -29,12 +29,12 @@ margin-top: 400px;
 }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 1080px){
     {
         .jumbotron{
         background: black;
         background-size: cover;
-        height: 1024px;
+        height: 900px;
         overflow: hidden;
         color: #eee;
         margin-top: -235px
