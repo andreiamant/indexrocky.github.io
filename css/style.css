@@ -4,7 +4,7 @@
 }
 /* Inicio jumbotron */
 .jumbotron {
-    background-color: grey;
+    background-color: black;
     background-size: cover;
     height: 125vh;
     overflow: hidden;
@@ -16,10 +16,10 @@ margin-top: 55vh;
 }
 
 @media (min-width:320px) { 
-    .jumbotron{ height: 122vh; }
+    .jumbotron{ height: 110vh; }
 }
 @media (min-width:480px) {
-    .jumbotron{ height: 122vh; }
+    .jumbotron{ height: 110vh; }
 }
  }
 
