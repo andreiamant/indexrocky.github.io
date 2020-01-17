@@ -4,9 +4,9 @@
 }
 /* Inicio jumbotron */
 .jumbotron {
-    background: black;
+    background-color: grey;
     background-size: cover;
-    height: 127vh;
+    height: 125vh;
     overflow: hidden;
     color: #eee;
     margin-top: -245px
