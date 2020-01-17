@@ -6,12 +6,12 @@
 .jumbotron {
     background: black;
     background-size: cover;
-    height: 125vh;
+    height: 127vh;
     overflow: hidden;
     color: #eee;
     margin-top: -245px
 }
 .jumbotron h1{
-margin-top: 300px;
+margin-top: 50vh;
 }
 /* Fim jumbotron */
