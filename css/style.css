@@ -16,10 +16,10 @@ margin-top: 55vh;
 }
 
 @media (min-width:320px) { 
-    .jumbotron{ height: 115vh; }
+    .jumbotron{ height: 120vh; }
 }
 @media (min-width:480px) {
-    .jumbotron{ height: 115vh; }
+    .jumbotron{ height: 120vh; }
 }
  }
 
