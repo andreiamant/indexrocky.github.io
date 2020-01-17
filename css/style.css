@@ -14,4 +14,14 @@
 .jumbotron h1{
 margin-top: 55vh;
 }
+
+@media (min-width:320px) { 
+    .jumbotron{ height: 122vh; }
+}
+@media (min-width:480px) {
+    .jumbotron{ height: 122vh; }
+}
+ }
+
+
 /* Fim jumbotron */
