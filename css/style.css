@@ -55,16 +55,10 @@ margin-top: 45vh;
 }
 .main-section.alabaster{
 	background: black;
-}
-@media (min-width:320px) { 
-    .imgservice {
-    width: 50%;
-    }
+
 }
 .imgservice{
     width: 100%;
-    margin-top: 100px;
-   
 }
 
 
