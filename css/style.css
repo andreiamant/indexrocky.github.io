@@ -60,5 +60,8 @@ margin-top: 45vh;
 .imgservice{
     width: 100%;
 }
-
+.carousel-item{
+   height: 100%;
+   width: 100%;
+}
 /* Fim dos Serviços */
