@@ -74,13 +74,20 @@ margin-top: 45vh;
 
 
 /* Contato  TESTE*/
+@media (max-width:320px) {
+    .main-section.contact h1{
+        text-align: center;
+    }
+}
+
 .main-section.contact{
-	padding:90px 0 100px;
+    padding:90px 0 100px;
+    margin-bottom: 40px;
 }
 
 .main-section.contact{
         padding:90px 0 100px;
-        margin-top: -60px;
+       
     }
     
     .main-section.contact{
