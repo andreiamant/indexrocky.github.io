@@ -53,6 +53,7 @@
             </a>
         </div>
     </div>
+
     <!--serviços-->
     <section class="main-section" id="service">
         <div class="container">
@@ -94,7 +95,6 @@
                 <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
                     <img src="img/planos.png" alt="" class="imgservice">
                 </figure>
-                <!--Fim Serviços-->
 
                 <!--Galeria-->
                 <div class="container" id="galeriaNav">
@@ -127,11 +127,11 @@
                         </a>
                     </div>
                 </div>
-                <!--teste-->
+                <!--Contato-->
                 <div class="container" id="contactNav">
-                   
+
                     <section class="main-section contact" id="contact">
-                        <h1 class="display-4" > Fale Conosco </h1>
+                        <h1 class="display-4"> Fale Conosco </h1>
                         <div class="row">
                             <div class="col-lg-6 col-sm-7 wow fadeInLeft">
                                 <div class="contact-info-box address clearfix">
@@ -195,14 +195,32 @@
                         </div>
                     </section>
                 </div>
-                <!--end teste-->
+
+                <!--Footer-->
                 <footer id="rodape">
                     <p>&copy; Rocky E-commerce 2019</p>
-                  </footer>
+                </footer>
+
+                <!--Botão topo-->
+                <div id="voltarTopo">
+                    <a href="#" id="subir">
+                        <i class="fas fa-chevron-circle-up"></i>
+                    </a>
+                </div>
 
                 <!-- JS -->
                 <script src="js/jquery.js"></script>
                 <script src="js/bootstrap.bundle.min.js"></script>
+
+                <!--Script barra de rolagem topo-->
+                <script>
+                    $(document).ready(function () {
+                        $('#subir').click(function () {
+                            $('html, body').animate({ scrollTop: 0 }, 'slow');
+                            return false;
+                        });
+                    });
+                </script>
 </body>
 
 </html>
